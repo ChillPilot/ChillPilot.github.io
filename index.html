@@ -203,7 +203,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-09-17 21:08:03 / 修改时间：22:45:13" itemprop="dateCreated datePublished" datetime="2022-09-17T21:08:03+08:00">2022-09-17</time>
+      <time title="创建时间：2022-09-17 21:08:03 / 修改时间：22:57:54" itemprop="dateCreated datePublished" datetime="2022-09-17T21:08:03+08:00">2022-09-17</time>
     </span>
 
   
@@ -216,151 +216,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Markdown-5-分钟快速上手"><a href="#Markdown-5-分钟快速上手" class="headerlink" title="Markdown 5 分钟快速上手"></a>Markdown 5 分钟快速上手</h1><h2 id="1-Markdown是什么？"><a href="#1-Markdown是什么？" class="headerlink" title="1. Markdown是什么？"></a>1. Markdown是什么？</h2><blockquote>
-<p>Markdown 是一种轻量级标记语言，被用来以纯文本格式编写文档。特点是易读，易写，很适合用来写博客，记笔记等。<br>文档后缀为 <code>**.md**</code>, <code>**.markdown**</code>。<br>Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。</p>
-</blockquote>
-<h2 id="2-Markdown-标题格式"><a href="#2-Markdown-标题格式" class="headerlink" title="2. Markdown 标题格式"></a>2. Markdown 标题格式</h2><blockquote>
-<p>使用 <code>#</code> 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">...</span><br><span class="line">####### 六级标题</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>显示结果如下：</p>
-</blockquote>
-<blockquote>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>
-<h2 id="3-Markdown-列表"><a href="#3-Markdown-列表" class="headerlink" title="3. Markdown 列表"></a>3. Markdown 列表</h2><blockquote>
-<p>Markdown 支持无序列表和有序列表。<br>无序列表使用星号 <code>*</code>、加号 <code>+</code> 或是减号 <code>-</code> 作为列表标记。<br>标记后加上一个空格。<br><code>tab</code> 键或者 2 个<code>空格</code>，表示增加一个缩减层级。</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">无序列表：</span><br><span class="line"></span><br><span class="line">* 第一段</span><br><span class="line">  * 第一节</span><br><span class="line">   * 第一小节</span><br><span class="line">+ 第二段</span><br><span class="line">  * 第一节</span><br><span class="line">  - 第三节</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>显示结果如下：</p>
-</blockquote>
-<blockquote>
-<ul>
-<li>第一段</li>
-</ul>
-</blockquote>
-<ul>
-<li>第一节</li>
-<li>第一小节</li>
-</ul>
-<ul>
-<li>第二段<ul>
-<li>第一节</li>
-</ul>
-<ul>
-<li>第三节</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-</blockquote>
-<p>有序列表：<br>因为Markdown 无法实现”多级有序列表”，所以此处使用”无序列表”上直接手写序号, 来实现类似的效果:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">有序列表：</span><br><span class="line"></span><br><span class="line">- 1.段落标题</span><br><span class="line">  - 1.1段落标题</span><br><span class="line">   - 1.1.1段落标题</span><br><span class="line">- 2.段落标题</span><br><span class="line">  - 1.1段落标题</span><br><span class="line">    - 1.1.1段落标题</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>显示结果如下：</p>
-</blockquote>
-<blockquote>
-<ul>
-<li>1.段落标题</li>
-</ul>
-</blockquote>
-<ul>
-<li>1.1段落标题</li>
-<li>1.1.1段落标题</li>
-<li>2.段落标题<ul>
-<li>1.1段落标题<ul>
-<li>1.1.1段落标题</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="4-Markdown-段落"><a href="#4-Markdown-段落" class="headerlink" title="4. Markdown 段落"></a>4. Markdown 段落</h2><blockquote>
-<p>Markdown 段落没有特殊的格式，直接编写文字就好。</p>
-</blockquote>
-<h2 id="5-Markdown-区块"><a href="#5-Markdown-区块" class="headerlink" title="5. Markdown 区块"></a>5. Markdown 区块</h2><blockquote>
-<p>Markdown 区块引用是在段落开头使用 &gt; 符号 ，然后后面紧跟一个空格符号：</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">区块：</span><br><span class="line"></span><br><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>显示结果如下：</p>
-</blockquote>
-<blockquote>
-<p>最外层</p>
-<blockquote>
-<p>第一层嵌套</p>
-<blockquote>
-<p>第二层嵌套</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="6-Markdown-代码"><a href="#6-Markdown-代码" class="headerlink" title="6. Markdown 代码"></a>6. Markdown 代码</h2><blockquote>
-<p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来(`)。<br>这段话中，我将 <code>print</code> 和 <code>main</code> 用代码显示了。</p>
-</blockquote>
-<blockquote>
-<p>如果是代码区块,使用 4 个空格或者一个制表符（Tab 键）。</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[4空格]int main()&#123;</span><br><span class="line">[4空格]cout &lt;&lt; &quot;hello world!&quot; &lt;&lt; endl;</span><br><span class="line">[4空格]&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>显示结果如下：</p>
-</blockquote>
-<pre><code>int main()&#123;
-  cout &lt;&lt; &quot;hello world!&quot; &lt;&lt; endl;
-&#125;
-</code></pre>
-<blockquote>
-<p>你也可以用 &#96;&#96;&#96; 包裹一段代码，并指定一种语言（也可以不指定）：</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">|```c++</span><br><span class="line">|int main()&#123;</span><br><span class="line">|cout &lt;&lt; &quot;hello world!&quot; &lt;&lt; endl;</span><br><span class="line">|&#125;</span><br><span class="line">|```</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>显示结果如下：</p>
-</blockquote>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">cout &lt;&lt; <span class="string">&quot;hello world!&quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="7-Markdown-表格"><a href="#7-Markdown-表格" class="headerlink" title="7. Markdown 表格"></a>7. Markdown 表格</h2><blockquote>
-<p>Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。<br>语法格式如下：</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>显示结果如下：</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>表头</th>
-<th>表头</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-<tr>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-</tbody></table>
-<h2 id="8-Markdown-图片"><a href="#8-Markdown-图片" class="headerlink" title="8. Markdown 图片"></a>8. Markdown 图片</h2><blockquote>
-<p>Markdown 图片语法格式如下：</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">![名称](图片地址)</span><br><span class="line">![名称](图片地址 &quot;可选标题&quot;)</span><br><span class="line">例如：</span><br><span class="line"></span><br><span class="line">![个人头像](https://astronautchi.github.io/images/aaa.jpg)</span><br><span class="line"></span><br><span class="line">Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 &lt;img&gt; 标签。</span><br><span class="line"></span><br><span class="line">&lt;img src=&quot;https://astronautchi.github.io/images/aaa.jpg&quot; width=&quot;50%&quot;&gt;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>显示结果如下：<br><img src="/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="名称"><br><img src="/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="名称" title="可选标题"><br><img src="https://astronautchi.github.io/images/aaa.jpg" alt="个人头像"><br><img src="https://astronautchi.github.io/images/aaa.jpg" width="50%"></p>
-</blockquote>
-<h2 id="9-Markdown-链结"><a href="#9-Markdown-链结" class="headerlink" title="9. Markdown 链结"></a>9. Markdown 链结</h2><blockquote>
-<p>Markdown 链接使用方法如下：</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br><span class="line">例如：</span><br><span class="line">[我的笔记小站](https://astronautchi.github.io/)</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://astronautchi.github.io/">我的笔记小站</a></p>
-
+          <p>简单介绍Markdown语言的使用，涉及标题、列表、图片链接、表格等。快速学会如何使用Markdown语言记笔记。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/09/Markdown-5-%E5%88%86%E9%92%9F%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -414,8 +278,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2022-09-17 10:03:00" itemprop="dateCreated datePublished" datetime="2022-09-17T10:03:00+08:00">2022-09-17</time>
+      <time title="创建时间：2022-09-17 10:03:00 / 修改时间：22:59:11" itemprop="dateCreated datePublished" datetime="2022-09-17T10:03:00+08:00">2022-09-17</time>
     </span>
 
   
@@ -428,20 +293,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+          <p>hexo 的一篇默认hello world的demo</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/09/hello-world/">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
